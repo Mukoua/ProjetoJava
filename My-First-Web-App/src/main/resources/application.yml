@@ -16,4 +16,8 @@ spring:
 logging:
   level:
      root: WARN
-   # dev.Anderson.My_First_Web_App: DEBUG
+ # dev.Anderson.My_First_Web_App: DEBUG
+spring-doc:
+  paths-to-match: /api/**/v1/**
+  swagger-ui:
+    use-root-patch: true
