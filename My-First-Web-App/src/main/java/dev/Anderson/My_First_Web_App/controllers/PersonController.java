@@ -9,14 +9,10 @@ import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+
 import java.util.List;
 
-<<<<<<< HEAD
-
-//@CrossOrigin(origins = "http://localhost:8080")
-=======
 @CrossOrigin//(origins = "http://localhost:8080")
->>>>>>> 47533aa9d98fe9d42f1b4d98f15d764e618e18c2
 @RestController
 @RequestMapping("/api/person/v1")
 @Tag(name= "People" , description = "Endpoints for Managing People")
@@ -36,11 +32,7 @@ public class PersonController implements PersonControllerDocs {
         return service.findAll();
     }
 
-<<<<<<< HEAD
-   // @CrossOrigin(origins = "http://localhost:8080")
-=======
     @CrossOrigin(origins = "http://localhost:8080")
->>>>>>> 47533aa9d98fe9d42f1b4d98f15d764e618e18c2
     @GetMapping(value = "/{id}",
             produces = {
                     MediaType.APPLICATION_JSON_VALUE,
@@ -52,12 +44,7 @@ public class PersonController implements PersonControllerDocs {
     public PersonDTO findById(@PathVariable("id") Long id) {
         return service.findById(id);
     }
-<<<<<<< HEAD
-
-    //@CrossOrigin(origins = "http://localhost:8080")
-=======
     @CrossOrigin(origins = "http://localhost:8080")
->>>>>>> 47533aa9d98fe9d42f1b4d98f15d764e618e18c2
     @PostMapping(
             consumes = {
                     MediaType.APPLICATION_JSON_VALUE,
@@ -98,3 +85,4 @@ public class PersonController implements PersonControllerDocs {
         return ResponseEntity.noContent().build();
     }
 }
+
