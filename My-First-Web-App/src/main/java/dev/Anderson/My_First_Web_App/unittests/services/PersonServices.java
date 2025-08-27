@@ -5,11 +5,6 @@ import dev.Anderson.My_First_Web_App.controllers.PersonController;
 import dev.Anderson.My_First_Web_App.data.dto.PersonDTO;
 import dev.Anderson.My_First_Web_App.exception.RequiredObjectIsNullException;
 import dev.Anderson.My_First_Web_App.exception.ResourceNotFoundException;
-import static dev.Anderson.My_First_Web_App.mapper.ObjectMapper.parseListObject;
-import static dev.Anderson.My_First_Web_App.mapper.ObjectMapper.parseObject;
-import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;
-import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
-
 import dev.Anderson.My_First_Web_App.model.Person;
 import dev.Anderson.My_First_Web_App.repository.PersonRepository;
 import org.slf4j.Logger;
@@ -18,6 +13,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+
+import static dev.Anderson.My_First_Web_App.mapper.ObjectMapper.parseListObject;
+import static dev.Anderson.My_First_Web_App.mapper.ObjectMapper.parseObject;
+import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;
+import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
 
 @Service
 public class PersonServices {

@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/My-First-Web-App - 00.iml" filepath="$PROJECT_DIR$/.idea/My-First-Web-App - 00.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/My-First-Web-App/My-First-Web-App.iml" filepath="$PROJECT_DIR$/My-First-Web-App/My-First-Web-App.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/My-First-Web-App - 12 - Testes Mockitos no Books.iml" filepath="$PROJECT_DIR$/.idea/My-First-Web-App - 12 - Testes Mockitos no Books.iml" />
+>>>>>>> 47533aa9d98fe9d42f1b4d98f15d764e618e18c2
     </modules>
   </component>
 </project>
