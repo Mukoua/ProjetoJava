@@ -2,7 +2,7 @@ package dev.Anderson.My_First_Web_App.controllers;
 
 import dev.Anderson.My_First_Web_App.controllers.docs.PersonControllerDocs;
 import dev.Anderson.My_First_Web_App.data.dto.PersonDTO;
-import dev.Anderson.My_First_Web_App.services.PersonServices;
+import dev.Anderson.My_First_Web_App.unittests.services.PersonServices;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
@@ -11,6 +11,8 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+
+//@CrossOrigin(origins = "http://localhost:8080")
 @RestController
 @RequestMapping("/api/person/v1")
 @Tag(name= "People" , description = "Endpoints for Managing People")
@@ -30,6 +32,7 @@ public class PersonController implements PersonControllerDocs {
         return service.findAll();
     }
 
+   // @CrossOrigin(origins = "http://localhost:8080")
     @GetMapping(value = "/{id}",
             produces = {
                     MediaType.APPLICATION_JSON_VALUE,
@@ -42,6 +45,7 @@ public class PersonController implements PersonControllerDocs {
         return service.findById(id);
     }
 
+    //@CrossOrigin(origins = "http://localhost:8080")
     @PostMapping(
             consumes = {
                     MediaType.APPLICATION_JSON_VALUE,

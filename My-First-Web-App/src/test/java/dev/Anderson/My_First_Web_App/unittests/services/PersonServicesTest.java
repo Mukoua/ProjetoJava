@@ -1,10 +1,10 @@
-package dev.Anderson.My_First_Web_App.services;
+package dev.Anderson.My_First_Web_App.unittests.services;
 
 import dev.Anderson.My_First_Web_App.data.dto.PersonDTO;
 import dev.Anderson.My_First_Web_App.exception.RequiredObjectIsNullException;
 import dev.Anderson.My_First_Web_App.model.Person;
 import dev.Anderson.My_First_Web_App.repository.PersonRepository;
-import dev.Anderson.My_First_Web_App.unitetests.mapper.mocks.MockPerson;
+import dev.Anderson.My_First_Web_App.unittests.mapper.mocks.MockPerson;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInstance;

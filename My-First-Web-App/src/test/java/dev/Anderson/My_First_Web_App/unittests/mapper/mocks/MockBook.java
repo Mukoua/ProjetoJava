@@ -1,4 +1,4 @@
-package dev.Anderson.My_First_Web_App.unitetests.mapper.mocks;
+package dev.Anderson.My_First_Web_App.unittests.mapper.mocks;
 
 import dev.Anderson.My_First_Web_App.data.dto.BookDTO;
 import dev.Anderson.My_First_Web_App.model.Book;

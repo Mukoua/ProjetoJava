@@ -1,4 +1,4 @@
-package dev.Anderson.My_First_Web_App.unitetests.mapper;
+package dev.Anderson.My_First_Web_App.unittests.mapper;
 import static dev.Anderson.My_First_Web_App.mapper.ObjectMapper.parseListObject;
 import static dev.Anderson.My_First_Web_App.mapper.ObjectMapper.parseObject;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import java.util.List;
 
 import dev.Anderson.My_First_Web_App.data.dto.PersonDTO;
-import dev.Anderson.My_First_Web_App.unitetests.mapper.mocks.MockPerson;
+import dev.Anderson.My_First_Web_App.unittests.mapper.mocks.MockPerson;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

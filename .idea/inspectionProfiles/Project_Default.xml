@@ -6,15 +6,24 @@
       <option name="ignoredModules">
         <list>
           <option value="My-First-Web-App" />
+          <option value="My-First-Web-App" />
+          <option value="My-First-Web-App" />
+          <option value="My-First-Web-App" />
         </list>
       </option>
       <option name="ignoredPackages">
         <list>
           <option value="org.apache.commons:commons-lang3:3.17.0" />
+          <option value="org.apache.commons:commons-compress:1.24.0" />
+          <option value="org.springframework:spring-webmvc:6.2.8" />
+          <option value="org.springframework:spring-beans:6.2.8" />
         </list>
       </option>
       <option name="ignoredReasons">
         <list>
+          <option value="In progress" />
+          <option value="In progress" />
+          <option value="In progress" />
           <option value="In progress" />
         </list>
       </option>
