@@ -4,6 +4,7 @@ import dev.Anderson.My_First_Web_App.data.dto.BookDTO;
 import dev.Anderson.My_First_Web_App.exception.RequiredObjectIsNullException;
 import dev.Anderson.My_First_Web_App.model.Book;
 import dev.Anderson.My_First_Web_App.repository.BookRepository;
+import dev.Anderson.My_First_Web_App.services.BookServices;
 import dev.Anderson.My_First_Web_App.unittests.mapper.mocks.MockBook;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

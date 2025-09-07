@@ -2,7 +2,7 @@ package dev.Anderson.My_First_Web_App.controllers;
 
 import dev.Anderson.My_First_Web_App.controllers.docs.PersonControllerDocs;
 import dev.Anderson.My_First_Web_App.data.dto.PersonDTO;
-import dev.Anderson.My_First_Web_App.unittests.services.PersonServices;
+import dev.Anderson.My_First_Web_App.services.PersonServices;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
@@ -32,7 +32,7 @@ public class PersonController implements PersonControllerDocs {
         return service.findAll();
     }
 
-    @CrossOrigin(origins = "http://localhost:8080")
+    //@CrossOrigin(origins = "http://localhost:8080")
     @GetMapping(value = "/{id}",
             produces = {
                     MediaType.APPLICATION_JSON_VALUE,
